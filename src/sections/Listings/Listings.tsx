@@ -41,6 +41,7 @@ export const Listings = ({ title }: Props) => {
 
   useEffect(() => {
     fetchListings();
+    console.log('mudei');
   }, []);
 
   const fetchListings = async () => {
